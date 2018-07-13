@@ -10,6 +10,7 @@
 
   <body>
     Hello world.
+    <?php echo mix(); ?>
 
     <script src="<?php echo mix('js/app.js'); ?>"></script>
   </body>

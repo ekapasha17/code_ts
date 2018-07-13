@@ -63,29 +63,25 @@
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
 
-/***/ "./assets/js/app.js":
-/***/ (function(module, exports) {
-
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
 
 
 /***/ }),
+/* 1 */
+/***/ (function(module, exports) {
 
-/***/ "./assets/sass/app.scss":
+alert('a');
+
+/***/ }),
+/* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
-/***/ }),
-
-/***/ 0:
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__("./assets/js/app.js");
-module.exports = __webpack_require__("./assets/sass/app.scss");
-
-
 /***/ })
-
-/******/ });
+/******/ ]);
