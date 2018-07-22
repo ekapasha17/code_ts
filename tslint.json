@@ -1,0 +1,12 @@
+{
+    "extends": "tslint:latest",
+    "enable": true,
+    "rules": {
+        "no-unnecessary-type-assertion": true,
+        "no-duplicate-variable": true,
+        "no-unused-variable": [
+            true
+        ]
+    },
+    "autoFixOnSave": true
+  }

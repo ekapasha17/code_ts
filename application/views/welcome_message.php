@@ -3,11 +3,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
+<?php
+  //require_once 'vendor/autoload.php';
+?>
+
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
 
 	<style type="text/css">
-
+	
 	::selection { background-color: #E13300; color: white; }
 	::-moz-selection { background-color: #E13300; color: white; }
 
@@ -64,13 +68,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		box-shadow: 0 0 8px #D0D0D0;
 	}
 	</style>
+	
 </head>
 <body>
-
+<script src="<?php echo base_url('public/js/bundle.js'); ?>"></script>
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
+	<h1>Welcome to CodeIgniter! <?php echo base_url(); ?></h1>
+	
 	<div id="body">
+	<button>press mes</button>
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
