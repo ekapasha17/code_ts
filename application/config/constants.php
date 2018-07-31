@@ -98,3 +98,8 @@ define('CSS_PATH',dirname(__DIR__)."/assets/css/");
  * Path for JS
  */
 define('JS_PATH',dirname(__DIR__)."/assets/js");
+
+/**
+ * Path for Public JS
+ */
+define('PUBLIC_JS_PATH',dirname(__DIR__)."/public/js");

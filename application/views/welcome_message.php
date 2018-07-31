@@ -71,10 +71,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 </head>
 <body>
-<script src="<?php echo base_url('public/js/bundle.js'); ?>"></script>
+
 <div id="container">
-	<h1>Welcome to CodeIgniter! <?php echo base_url(); ?></h1>
-	
+	<h1>Welcome to CodeIgniter!</h1>
+	<div id = "greetings">lalalalaal</div>
+	<div id = "test_x">lalalalaal</div>
 	<div id="body">
 	<button>press mes</button>
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
@@ -90,6 +91,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
-
+<script src="<?php echo base_url('public/js/bundle.js'); ?>"></script>
 </body>
 </html>
